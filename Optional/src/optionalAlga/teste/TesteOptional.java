@@ -22,7 +22,7 @@ public class TesteOptional {
         .map(Caminhao::getSeguro)
         .map(Seguro::getCobertura)
         .orElse("Não tem seguro.");
-
+    System.out.println(Optional.ofNullable(seguro));
     System.out.println("Sua cobertura é: " + cobertura);
   }
 
