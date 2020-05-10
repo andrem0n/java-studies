@@ -1,0 +1,8 @@
+Hernane,Atacante,29,Sport,3
+Jose,Goleiro,29,Inter,5
+Carlos,Meia,29,Cruzeiro,34
+Paulo,Meia,29,Palmeiras,21
+Joao,Lateral,29,Sport,12
+André,Zagueiro,29,Vasco,1
+Paulo,Meia,29,Flamengo,17
+Leandro,Atacante,29,Sport,19
