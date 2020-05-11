@@ -103,7 +103,7 @@ public class PlayerImpl {
   }
 
   public void orderPlayersByScore(List<Player> players) {
-    players.stream().sorted(Comparator.comparingInt(Player::getGoalsScored))
+    players.stream().sorted(Comparator.comparingInt(Player::getGoalsScored).reversed())
         .forEach(System.out::println);
   }
 }
