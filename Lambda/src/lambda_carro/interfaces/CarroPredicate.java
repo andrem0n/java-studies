@@ -1,6 +1,6 @@
-package interfaces;
+package lambda_carro.interfaces;
 
-import model.Carro;
+import lambda_carro.model.Carro;
 
 @FunctionalInterface
 public interface CarroPredicate {

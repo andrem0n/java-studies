@@ -1,7 +1,7 @@
-package main;
+package lambda_carro.main;
 
-import interfaces.CarroPredicate;
-import model.Carro;
+import lambda_carro.interfaces.CarroPredicate;
+import lambda_carro.model.Carro;
 
 public class Main {
 	public static void main(String[] args) {

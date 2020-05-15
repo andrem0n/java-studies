@@ -1,4 +1,4 @@
-package model;
+package lambda_carro.model;
 
 public class Carro {
 

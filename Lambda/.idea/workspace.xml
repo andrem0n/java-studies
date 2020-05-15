@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76d4f6e7-9b12-4655-bb6c-f61d543ab9b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/CarroPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambda_pessoa/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional_interface/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functional_interface/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functional_interface/MainCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functional_interface/MainCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/CarroPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_carro/interfaces/CarroPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LambdaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_carro/main/LambdaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_carro/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambda_carro/model/Carro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1a92YT3KeJWXu9iJ1UKbI7qyrq9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,13 +41,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MainCalculadora">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <option name="MAIN_CLASS_NAME" value="lambda_carro.main.Main" />
       <module name="Lambda" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="lambda_carro.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainCalculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="functional_interface.MainCalculadora" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="functional_interface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,6 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainCalculadora" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -71,29 +89,34 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1586139486052">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1589510098605">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1589510098605" />
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1586139486052" />
     <state x="417" y="105" key="FileChooserDialogImpl" timestamp="1586143469273">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="417" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586143469273" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586143489256">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1589509667406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1589509667406" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586143489256" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1586143489256">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1589509667406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1589509667406" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586143489256" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1586143489256">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1589509667406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1589509667406" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586143489256" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1586143489256">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1589509667406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1589509667406" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586143489256" />
     <state x="20" y="0" width="1235" height="727" key="new project wizard" timestamp="1586143484544">
       <screen x="0" y="0" width="1366" height="728" />

@@ -6,8 +6,11 @@ public class MainCalculadora {
     Double result = Calculadora.calcular(30d, 20d, (a, b) -> a + b);
     System.out.println(result);
 
-    Double maiorNumero = Calculadora.calcular(10d, 8d, (a,b) -> a > b ? a : b);
+    Double maiorNumero = Calculadora.calcular(10d, 8d, (a, b) -> a > b ? a : b);
     System.out.println(maiorNumero);
+
+    Integer somarInteiros = Calculadora.calcular(2, 5, (a, b) -> a + b);
+    System.out.println(somarInteiros);
   }
 
 }
