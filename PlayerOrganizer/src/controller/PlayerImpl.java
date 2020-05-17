@@ -5,12 +5,15 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Scanner;
+import java.util.TreeSet;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import model.Player;
 
 public class PlayerImpl {
@@ -105,5 +108,14 @@ public class PlayerImpl {
   public void orderPlayersByScore(List<Player> players) {
     players.stream().sorted(Comparator.comparingInt(Player::getGoalsScored).reversed())
         .forEach(System.out::println);
+  }
+
+  public void toCollectors(List<Player> players) {
+
+    LinkedList<Player> linkedList = players.stream().collect(Collectors.toCollection(LinkedList::new));
+
+    TreeSet<Player> treeSet = players.stream().collect(Collectors.toCollection(TreeSet::new));
+    TreeSet<Player> tree = players.stream().collect(Collectors.toCollection(() -> new TreeSet<>()));
+    Optional<Player> player = players.stream().max(Comparator.comparing(Player::getName));
   }
 }
